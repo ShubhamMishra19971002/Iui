@@ -36,10 +36,10 @@ const BrandHomeScreen = () => {
             <div className='flex'>
               <button type='button' className='border pt-[2%] pb-[1%] w-[17%] mr-5 border-blue-500 rounded-lg bg-white'>
                 <Link to="/brandDashboard/creatcampaing" >
-                <div className='flex justify-center p-1' >
-                  <img src="./../../Images/groupPlus.svg" />
-                </div>
-                <div className='text-center block'><p>Create New</p></div>
+                  <div className='flex justify-center p-1' >
+                    <img src="./../../Images/groupPlus.svg" />
+                  </div>
+                  <div className='text-center block'><p>Create New</p></div>
                 </Link>
               </button>
 
@@ -58,11 +58,14 @@ const BrandHomeScreen = () => {
               </div>
 
               <div className='border p-[0.3%] pl-[1.5%] w-[17%] mr-5 border-[#CDC1B9] rounded-lg bg-[#CDC1B9]'>
-                <div className='flex p-1 ' >
-                  <p className='font-bold'>Cars Deekho <br /><span className='text-sm font-normal line-clamp-none leading-3'>Reels</span></p>
-                </div>
-                <p className='mt-[20%] text-sm'>12 July 2023</p>
+                <Link to="/brandDashboard/cardeekho">
+                  <div className='flex p-1 ' >
+                    <p className='font-bold'>Cars Deekho <br /><span className='text-sm font-normal line-clamp-none leading-3'>Reels</span></p>
+                  </div>
+                  <p className='mt-[20%] text-sm'>12 July 2023</p>
+                </Link>
               </div>
+
             </div>
           </div>
           <div>
@@ -132,7 +135,7 @@ const BrandHomeScreen = () => {
           </div>
         </div>
       </div>
-      <CreateNewProject/>
+      <CreateNewProject />
     </>
   )
 }

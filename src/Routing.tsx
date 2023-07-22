@@ -6,6 +6,7 @@ import BrandHomeScreen from './Modules/BrandManagers/Views/BrandHomeScreen'
 import Trending from './Modules/BrandManagers/Views/Trending'
 import InfluencersList from './Modules/BrandManagers/Views/InfluencersList'
 import CreateCampaigns from './Modules/BrandManagers/Views/CreateCampaigns'
+import ButtonClick from './Modules/BrandManagers/Views/ButtonClick'
 
 const Routing = () => {
   return (
@@ -17,7 +18,7 @@ const Routing = () => {
         <Route path="/brandDashboard/trending" element={<Trending />} />
         <Route path="/brandDashboard/influencerlist" element={<InfluencersList />} />
         <Route path="/brandDashboard/creatcampaing" element={<CreateCampaigns />} />
-        {/* <Route path="/brandDashboard" element={< BrandManager />} /> */}
+        <Route path="/brandDashboard/cardeekho" element={<ButtonClick />} />
       </Routes>
     </BrowserRouter>
   )

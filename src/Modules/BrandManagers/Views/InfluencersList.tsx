@@ -60,7 +60,7 @@ const InfluencersList = () => {
 
 
                                 <tr className="bg-white border border-slate-300 m-10 text-base">
-                                <td className=" flex px-6 py-3 font-medium text-gray-900 whitespace-nowrap">
+                                    <td className=" flex px-6 py-3 font-medium text-gray-900 whitespace-nowrap">
                                         <img src='./../../Images/Ellipse.png' />
                                         <div className=' m-3 -mt-0'>
                                             <span>Palak</span>

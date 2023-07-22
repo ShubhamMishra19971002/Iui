@@ -41,11 +41,7 @@ const CreateCampaigns = () => {
                     <label htmlFor="outlined_success" className="absolute text-sm duration-300 transform -translate-y-5 scale-75 top-2 z-10 origin-[0]  px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Outlined success</label>
                   </div>
                 </div>
-
-
-                <div></div>
-
-
+             <div></div>
                 <div>
                   <p className='text-lg font-semibold'>Other Detail</p>
                   <input className='border w-full border-black rounded-md h-[8rem]' type='text' />
